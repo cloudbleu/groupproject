@@ -26,3 +26,15 @@ p {
 	font-family: 'Oswald', sans-serif;
 	font-size: 30px;
 }
+
+.euro-text {
+	font-size: 30px;
+}
+
+#euro-movie {
+	font-size: 30px;
+}
+
+#euro-movie p {
+	font-size: 12px;
+}

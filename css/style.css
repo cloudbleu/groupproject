@@ -24,7 +24,7 @@ body {
 
 p {
 	font-family: 'Oswald', sans-serif;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .euro-text {
@@ -35,6 +35,6 @@ p {
 	font-size: 30px;
 }
 
-#euro-movie p {
-	font-size: 12px;
+h2 {
+	font-family: 'Rubik One', sans-serif;
 }

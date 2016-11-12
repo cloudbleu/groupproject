@@ -1,6 +1,8 @@
 #title h1 {
-	font-family: 'Bungee Shade', cursive;
-	background: black;
+	font-family: 'Gravitas One', cursive;
+	color: #F8F8FF;
+    font-size: 60px;
+    background: black;
 }
 
 h1 {
@@ -9,10 +11,14 @@ h1 {
 	font-size: 40px;
 }
 
+.fotorama {
+    background: black;
+}
+
 body {
-	background-color: black;
+	background-color:  #F8F8FF;
 	padding: 70px;
-	color: 	white;
+	color: 	black;
 }
 
 .jumbotron {

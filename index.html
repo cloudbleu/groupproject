@@ -4,13 +4,18 @@
 <head>
 
 	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> 
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> 
 	
 	<title>Around the World in many Movies!</title>
 	<link href='css/bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
-	<link href='css/style.css' rel='stylesheet' type='text/css'>
+	<link href='css/style2.css' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="slick/slick/slick.css"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Oswald|Rubik+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gravitas+One" rel="stylesheet">
+	<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> 
+
 </head>
 
 <body>
@@ -30,81 +35,42 @@
   </form>
 	</nav>
 
-	<div class="jumbotron">
-	<div class="container">
+  <h5> &emsp; </h5>
+  <h5> &emsp; </h5>
+
 	<div id="title">
-		<h1>Movies from around the world!</h1>
+		<h1>MOVIES OF THE WORLD!</h1>
 	</div>
 
-<!--carousel-->
-<!--
+  <h5> &emsp; </h5>
+  <h5> &emsp; </h5>
 
-	<div class="carousel">
-  		<div> <img src="https://resizing.flixster.com/KLd1YUkDX3duiQ1AmenlcNTaguw=/206x305/v1.bTsxMTE2NjcyNDtqOzE3MjI5OzEyMDA7ODAwOzEyMDA"></div>
-  		<div> <img src="https://upload.wikimedia.org/wikipedia/en/a/a0/Lucky_Number_Slevin_Theater_Poster.JPG"></div>
-  		<div>another picture</div>
+	<!--carousel -->
+	<center>
+	<div class="fotorama" data-loop="true" data-autoplay="3000"
+    data-width="100%"
+     data-ratio="700/467"
+     data-minwidth="400"
+     data-maxwidth="1000"
+     data-minheight="300"
+     data-maxheight="100%">
+
+  		<img src="https://images7.alphacoders.com/440/440614.jpg" data-caption="Antartica">
+  		<img src="http://i.huffpost.com/gen/915986/images/o-THE-HOBBIT-WINS-BOX-OFFICE-facebook.jpg" data-caption="New Zealand">
+  		<img src="https://images2.alphacoders.com/139/thumb-1920-13970.jpg" data-caption="Japan">
 	</div>
+	</center>
 
-
-	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script type="text/javascript" src="slick/slick/slick.min.js"></script>
-
-	<script type="text/javascript">
-    	$(document).ready(function(){
-      	$('.carousel').slick({
-        	setting-name: setting-value
-      	});
-    });
-  	</script>
--->
-
-<!--
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-  		<ol class="carousel-indicators">
-    		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    		<li data-target="#myCarousel" data-slide-to="1"></li>
-    		<li data-target="#myCarousel" data-slide-to="2"></li>
-    		<li data-target="#myCarousel" data-slide-to="3"></li>
-  		</ol>
-
-  	<div class="carousel-inner" role="listbox">
-    	<div class="item active">
-      		<img src="https://resizing.flixster.com/KLd1YUkDX3duiQ1AmenlcNTaguw=/206x305/v1.bTsxMTE2NjcyNDtqOzE3MjI5OzEyMDA7ODAwOzEyMDA" alt="Movie-1">
-      		<div class="carousel-caption">
-        		<h3>Happy Feet</h3>
-        		<p>Antartica</p>
-      		</div>
-    	</div>
-    </div>
-    <div class="item">
-      <img src="https://upload.wikimedia.org/wikipedia/en/a/a0/Lucky_Number_Slevin_Theater_Poster.JPG" alt="Movie-2">
-      <div class="carousel-caption">
-        <h3>Lucky Number Slevin</h3>
-        <p>America</p>
-      </div>
-    </div>
-
-	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  	</a>
-  	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    	<span class="sr-only">Next</span>
-  	</a>
-</div>
--->
 	</div>
 	</div>
 
-
+  <h5> &emsp; </h5>
+  <h5> &emsp; </h5>
 
 	<div class="header button"><center>
 		<a href=> <button type="button">Africa</button> </a>
 	
-		<a href= > <button type="button">Antarctica</button> </a>
+		<a href= > <button type="button">Antarctica and the Seas</button> </a>
 	
 		<a href= > <button type="button">Asia</button> </a>
 	
@@ -112,7 +78,7 @@
 	
 		<a href= "Europe.html" > <button type="button">Europe</button> </a>
 	
-		<a href= > <button type="button">Americas</button> </a>
+		<a href= "Americas.html"> <button type="button">Americas</button> </a>
 	
 				</center>
 	</div>

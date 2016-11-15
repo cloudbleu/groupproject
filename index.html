@@ -171,6 +171,7 @@
 
 <!-- Poll -->
 	<div class="container">
+	
    	<div class="col-md-3">
             <div class="panel panel-primary">
                 <div class="panel-heading">
@@ -221,9 +222,14 @@
                         </li>
                     </ul>
                 </div>
-                <div class="panel-footer text-center">
+                <div class="panel-footer text-center" id="poll">
                     <button type="button" class="btn btn-primary btn-block btn-sm">
                         Vote</button>
+
+                        <script> $("#poll button").on("click", function() {
+  						alert("Thank you for your vote!")
+  						});
+  						</script>
                     <a href="#" class="small">View Result</a></div>
             </div>
         </div>
@@ -232,6 +238,9 @@
 			<h1> What movie would you like to see next?</h1>
 			<p> <center> Every 2 weeks there will be a poll asking you to decide on what movie we should add next!</center></p>
 			<center><img src=http://cdn3.teen.com/wp-content/uploads/2013/10/Jack-jack-skellington-33944141-500-400.gif></center>
+
+
+		</div>
 		</div>
 		</div>
 
@@ -273,7 +282,7 @@
 					<textarea name="message" placeholder="Message"></textarea>
 					<button>Send</button>
 
-					  <script>$("button").on("click", function() {
+					  <script>$(".footer-right button").on("click", function() {
   						alert("Thank you for your comment! We will get back to you as soon as we can!")
   						});
   </script>

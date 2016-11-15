@@ -54,7 +54,7 @@
       <li><a href="Asia.html">Asia</a></li>
       <li><a href="Europe.html">Europe</a></li>
       <li><a href="Oceania.html">Oceania</a></li>
-      <li><a href="#">Map of Movies</a></li>
+      <li><a href="index.html#map">Map of Movies</a></li>
       
       <li class="icon">
       <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
@@ -125,6 +125,42 @@
 	<div id="map">
 	<center><iframe src="https://www.google.com/maps/d/embed?mid=12rp97pzftd94eEFUhDDvgDf6C6Q" width="640" height="480"></iframe></center>
 	</div>
+
+	<h2><center>Want to know more about the new movies we are going to add? then sign up to our newsletter below!</center></h2>
+	&emsp; 
+  	&emsp; 
+		<center>
+		<div class="cd-form-wrapper cd-container">
+			<form class="cd-form">
+				<label class="cd-label" for="cd-email">Type your email in and hit Enter to Submit!</label>
+				<input type="email" id="cd-email" class="cd-email" name="cd-email" placeholder="Enter your email address">
+				<input type="submit" class="cd-submit" value="Submit">
+				<div class="cd-loading"></div>
+			</form>
+		</center>
+ 
+
+
+	<script> $('.cd-form .cd-email').keyup(function(event){	
+	var emailInput = $(this),
+		insertedEmail = emailInput.val(),
+		atPosition = insertedEmail.indexOf("@");
+    	dotPosition = insertedEmail.lastIndexOf(".");
+    //check if user has inserted a "@" and a dot
+    if (atPosition< 1 || dotPosition<atPosition+2 ) {
+    	//if he hasn't..
+    	//hide the submit button
+    	$('.cd-form').removeClass('is-active').find('.cd-loading').off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
+    } else {
+    	//if he has..
+    	//show the submit button
+    	$('.cd-form').addClass('is-active');
+    }
+});
+</script>
+</div>
+
+
 
 	</div>
 

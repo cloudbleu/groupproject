@@ -2,7 +2,7 @@
 	font-family: 'Gravitas One', cursive;
 	color: black;
     font-size: 70px;
-    background: 
+    background: none
 }
 
 h1 {
@@ -29,7 +29,6 @@ body {
 
 .jumbotron {
 	min-height: 600px;
-	background-image: url('https://15254b2dcaab7f5478ab-24461f391e20b7336331d5789078af53.ssl.cf1.rackcdn.com/plex.vanillacommunity.com/ipb/monthly_12_2010/post-33146-070106600%201292496569.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -37,6 +36,7 @@ body {
 #map {
 	border-style: solid;
     border-width: 0px;
+    object-position: center;
 }
 
 .cd-form {
@@ -190,7 +190,3 @@ ul.topnav li.icon {display: none;}
   	background: black;
   	padding: 0px;
   }
-
-.fa fa-facebook {
-	background-image: url("/logo/facebook.svg"); 
-}

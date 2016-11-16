@@ -4,12 +4,26 @@
 <head>
 
 	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 33 KB -->
+	<script src="fotorama-4.6.4/fotorama.js"></script> 
 	
 	<title>Around the World in many Movies!</title>
 	<link href='css/bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
 	<link href='css/style.css' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="slick/slick/slick.css"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Oswald|Rubik+One" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Gravitas+One" rel="stylesheet">
+	<link  href="fotorama-4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+
+	<!--Footer style sheets-->
+	<link rel="stylesheet" href="css/demo.css">
+	<link rel="stylesheet" href="css/footer-distributed-with-contact-form.css">
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
@@ -22,45 +36,256 @@
     </div>
     </div>
   <form class="navbar-form navbar-right" role="search">
+
     <div class="form-group">
       <input type="text" class="form-control" placeholder="search">
    	</div>
     <button type="submit" class="btn btn-default">submit</button>
   </form>
+  <center>
+    <div class="collapse navbar-collapse">
+  <ul class="nav navbar-nav navbar-left">
+  <ul class="topnav" id="myTopnav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Antartica.html">Antartica and the Sea</a></li>
+      <li><a href="Africa.html">Africa</a></li>
+      <li><a href="Americas.html">Americas</a></li>
+      <li><a href="Asia.html">Asia</a></li>
+      <li><a href="Europe.html">Europe</a></li>
+      <li><a href="Oceania.html">Oceania</a></li>
+      <li><a href="index.html#map">Map of Movies</a></li>
+      
+      <li class="icon">
+      <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+      </li>
+   </ul>
+
+    </div>
 	</nav>
 
-	<div class="jumbotron">
-	<div class="container">
+  <h5> &emsp; </h5>
+  <h5> &emsp; </h5>
+
 	<div id="title">
-		<h1>Movies from around the world!</h1>
+		<h1>MOVIES OF THE WORLD!</h1>
 	</div>
+
+  <h5> &emsp; </h5>
+  <h5> &emsp; </h5>
+
+	<!--carousel -->
+	<center>
+	<div class="fotorama" data-loop="true" data-autoplay="3000"
+    data-width="100%"
+     data-ratio="700/467"
+     data-minwidth="400"
+     data-maxwidth="1000"
+     data-minheight="300"
+     data-maxheight="100%">
+
+  		<img src="https://images7.alphacoders.com/440/440614.jpg" data-caption="Happy Feet - Antartica">
+  		<img src="http://i.huffpost.com/gen/915986/images/o-THE-HOBBIT-WINS-BOX-OFFICE-facebook.jpg" data-caption="The Hobbit - New Zealand">
+  		<img src="https://images2.alphacoders.com/139/thumb-1920-13970.jpg" data-caption="Memoirs of a Geisha - Japan">
+	</div>
+	</center>
+
 	</div>
 	</div>
 
-	<div class="header button">
-		<a href= > <button type="button" onclick="">Africa</button> </a>
-	
-		<a href= > <button type="button" onclick="">Antarctica</button> </a>
-	
-		<a href= > <button type="button" onclick="">Asia</button> </a>
-	
-		<a href= > <button type="button" onclick="">Australia/Oceania</button> </a>
-	
-		<a href= > <button type="button" onclick="">Europe</button> </a>
-	
-		<a href= > <button type="button" onclick="">North America</button> </a>
-	
-		<a href= > <button type="button" onclick="">South America</button> </a>
-	</div>
+  <h5> &emsp; </h5>
+  <h5> &emsp; </h5>
 
 	<div class=container>
-		<h1> What is this site about?</h1>
-		<p> Have you ever wondered where your favourite film was made? Or where it was set? Did you know that films are often filmed and set in completely different locations?</p>
+		<h2> What is this site about?</h2>
+		<p> Discover the world throught film! Have you ever wondered where your favourite film was made? Or where it was set? Did you know that films are often filmed and set in completely different locations?</p>
 
 		<p> Why not have a look below to find out where our favourite movies are made?!?</p>
 
-	--add map here--
 	</div>
+
+	<!--map-->
+
+	<div class="container">
+
+	<div id="map">
+	<div class = row> <div class="col-md-12">
+	<center><iframe src="https://www.google.com/maps/d/embed?mid=12rp97pzftd94eEFUhDDvgDf6C6Q" width="1140" height="450"></iframe></center>
+	</div>
+	</div>
+	</div>
+
+	<div class="container">
+	<div class="col-md-12">
+
+	<h3><center>Want to know more about the new movies we are going to add? then sign up to our newsletter below!</center></h3>
+	&emsp; 
+  	&emsp; 
+		<center>
+		<div class="cd-form-wrapper cd-container">
+			<form class="cd-form">
+				<label class="cd-label" for="cd-email">Type your email in and hit Enter to Submit!</label>
+				<input type="email" id="cd-email" class="cd-email" name="cd-email" placeholder="Enter your email address">
+				<input type="submit" class="cd-submit" value="Submit">
+				<div class="cd-loading"></div>
+			</form>
+		</center>
+	</div>
+ 
+
+
+	<script> $('.cd-form .cd-email').keyup(function(event){	
+	var emailInput = $(this),
+		insertedEmail = emailInput.val(),
+		atPosition = insertedEmail.indexOf("@");
+    	dotPosition = insertedEmail.lastIndexOf(".");
+    //check if user has inserted a "@" and a dot
+    if (atPosition< 1 || dotPosition<atPosition+2 ) {
+    	//if he hasn't..
+    	//hide the submit button
+    	$('.cd-form').removeClass('is-active').find('.cd-loading').off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
+    } else {
+    	//if he has..
+    	//show the submit button
+    	$('.cd-form').addClass('is-active');
+    }
+});
+</script>
+</div>
+
+
+
+	</div>
+
+  <h5> &emsp; </h5>
+  <h5> &emsp; </h5>
+  <h5> &emsp; </h5>
+
+
+<!-- Poll -->
+	<div class="container">
+	
+   	<div class="col-md-3">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <span class="glyphicon glyphicon-hand-right"></span>What film should be added next?</h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    About a Boy
+                                </label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    The Godfather
+                                </label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Amelie
+                                </label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Howls Moving Castle
+                                </label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Others
+                                </label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel-footer text-center" id="poll">
+                    <button type="button" class="btn btn-primary btn-block btn-sm">
+                        Vote</button>
+
+                        <script> $("#poll button").on("click", function() {
+  						alert("Thank you for your vote!")
+  						});
+  						</script>
+                    <a href="#" class="small">View Result</a></div>
+            </div>
+        </div>
+
+        <div class="col-md-">
+			<h3><center> What movie would you like to see next?</center></h3>
+			<p> <center> Every 2 weeks there will be a poll asking you to decide on what movie we should add next!</center></p>
+			<center><img src=http://cdn3.teen.com/wp-content/uploads/2013/10/Jack-jack-skellington-33944141-500-400.gif></center>
+
+
+		</div>
+		</div>
+		</div>
+
+	<!--footer-->
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				
+
+				<p class="footer-links">
+					<a href="index.html">Home</a>
+					·
+					<a href="About.html">About</a>
+					·
+					<a href="About.html">Contact</a>
+					·
+					<a href="Terms.html">Terms</a>
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="https://en-gb.facebook.com/"><i class="fa fa-facebook"></i></a>
+					<a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+					<a href="https://github.com/"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p>Contact Us</p>
+
+				<form action="#" method="post">
+
+					<input type="text" name="email" placeholder="Email" />
+					<textarea name="message" placeholder="Message"></textarea>
+					<button>Send</button>
+
+					  <script>$(".footer-right button").on("click", function() {
+  						alert("Thank you for your comment! We will get back to you as soon as we can!")
+  						});
+  </script>
+
+				</form>
+
+			</div>
+
+		</footer>
+
 
 </body>
 

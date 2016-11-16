@@ -190,3 +190,7 @@ ul.topnav li.icon {display: none;}
   	background: black;
   	padding: 0px;
   }
+
+.fa fa-facebook {
+	background-image: url(/logo/facebook.svg); 
+}

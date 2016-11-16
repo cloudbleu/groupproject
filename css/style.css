@@ -21,6 +21,26 @@ h2 {
 	font-size: 50px;
 }
 
+h3 {
+	font-family: 'Rubik One', sans-serif;
+	font-size: 20px;
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+
+.euro-text {
+	font-size: 30px;
+}
+
+#euro-movie {
+	font-size: 30px;
+}
+
+
+
 body {
 	background-color:  #F8F8FF;
 	padding: 70px;

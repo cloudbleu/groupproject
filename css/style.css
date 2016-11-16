@@ -29,8 +29,6 @@ body {
 
 .jumbotron {
 	min-height: 600px;
-	background-size: cover;
-	background-attachment: fixed;
 }
 
 #map {
